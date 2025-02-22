@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon Search</title>
+        <style>
+            body {
+                background-color: #1e1e1e;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                font-family: Arial, sans-serif;
+            }
+
+            .container {
+                text-align: center;
+            }
+
+            .logo img {
+                width: 400px;
+            }
+
+            .search-bar {
+                margin-top: 20px;
+                display: flex;
+                gap: 10px;
+            }
+
+            .search-bar input,
+            .search-bar select,
+            .search-bar button {
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+            }
+
+            .search-bar input {
+                width: 200px;
+            }
+
+            .search-bar button {
+                background-color: #2ea44f;
+                color: white;
+                cursor: pointer;
+            }
+
+            .search-bar button:hover {
+                background-color: #22863a;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img src="./gif-poke.gif.png" alt="Pokemon Logo">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="search your pokemon">
+                <select>
+                    <option value="all">all</option>
+                </select>
+                <input type="text" placeholder="sort">
+                <button>search</button>
+            </div>
+        </div>
+        <script src="./pokemons.js"></script>
+        <script src="./main.js"></script>
+    </body>
+
+    </html>
+
+
+
+
+</body>
+
+</html>
